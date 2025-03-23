@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(222, 225, 236);
+}
+
+.heads{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Dancing Script', 'cursive'; 
+}
+
+.head1{
+    margin-right: 10px;
+    font-size: 4.1rem;
+}
+
+.head2{
+    margin-left: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.navbar p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:'Poppins', 'sans-serif';
+font-weight: 700;}
+
+.navbar p a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar p a:hover{
+    color: rgb(50, 168, 137);
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+}
+
+.box{
+  width: 150px;
+  height: 250px; 
+  margin: 5px; 
+  flex: 1 1 20%;
+  border-radius: 2px;
+  border:1px solid grey;
+}
+
+.line{
+    width: 300px;
+    border: 1px solid grey;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+span{
+    font-size: 34px;
+    color: rgb(75, 75, 75);
+    font-family: 'Poppins', 'sans-serif';
+    margin-bottom: 0px;
+}
+
+.head{
+    font-family: 'Poppins', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

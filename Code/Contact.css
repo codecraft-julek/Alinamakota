@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(222, 225, 236);
+}
+
+.heads{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Dancing Script', 'cursive'; 
+}
+
+.head1{
+    margin-right: 10px;
+    font-size: 4.1rem;
+}
+
+.head2{
+    margin-left: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.navbar p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:'Poppins', 'sans-serif';
+font-weight: 700;}
+
+.navbar p a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar p a:hover{
+    color: rgb(50, 168, 137);
+}
+
+.contact1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.contact2{
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.tel2{
+    font-size: 42px;
+    font-weight: 300;
+    color: rgb(94, 94, 94);
+}
+
+.tel1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tel3{
+    font-size: 43px;
+    color: rgb(74, 108, 150);
+    font-weight: 700;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid grey;
+    width: 300px;
+    margin: 10px auto; /* Add margin to center the line */
+}
+
+.btn2{
+    padding: 10px 40px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(74, 108, 150);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a .btn2 {
+    text-decoration: none;
+    color: white;
+}

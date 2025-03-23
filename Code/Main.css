@@ -1,0 +1,227 @@
+body{
+    background-color: rgb(222, 225, 236);
+}
+
+.heads{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Dancing Script', 'cursive'; 
+}
+
+.head1{
+    margin-right: 10px;
+    font-size: 4.1rem;
+}
+
+.head2{
+    margin-left: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.navbar p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:'Poppins', 'sans-serif';
+font-weight: 700;}
+
+.navbar p a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar p a:hover{
+    color: rgb(50, 168, 137);
+}
+
+.panel{
+    background-image: url('../Images/Kot.jpg'); 
+    height: 90vh;
+    width: 100%;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    
+}
+
+.panel1{
+    padding-left: 10px;
+    padding-top: 0;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.5);
+    width: 45%;
+    height: fit-content;
+    border-radius: 14px;
+    padding: 30px;
+    padding-top: 15px;
+    
+    
+}
+
+.panel1 .ref1{
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'Dancing Script', 'cursive';
+    
+    
+}
+
+.panel1 .ref2{
+    font-size: 23px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 200;   
+}
+
+.panel1 p{
+    font-size: 20px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 300;
+}
+
+.panel1 button{
+    padding: 10px 65px;
+    font-size: 20px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 300;
+    background: linear-gradient(to right, rgb(50, 168, 137), rgb(253, 106, 246));
+    border-radius:23px;
+    border: none;    
+}
+
+.panel1 button:hover{    
+    cursor: pointer;
+}
+
+.panel1 a button {
+    text-decoration: none;
+    color: white;
+}
+
+.fb-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.fb-link .btn2{
+    padding: 10px 80px;
+    font-size: 25px;
+    font-family:'Poppins', 'sans-serif';
+    font-weight: 500;
+    background-color:rgb(195,84,69) ;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.fb-link .btn2 a{
+    text-decoration: none;
+   ;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(202, 209, 233) ;
+}
+
+.zadzwon{
+    font-size: 45px;
+    font-family: 'Dancing Script', 'cursive';
+    
+}
+    
+
+a img{
+    width:50px;
+    height: 50px;
+}
+
+footer h2 span{
+    color: blue;
+    font-size: 38px;
+}
+
+.footer-content a img{
+ display: inline-block;   
+}
+ 
+
+footer h2{
+    display: inline-block;
+    padding: 30px;
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+}
+
+.call-button{
+    padding: 10px 40px;
+    background: linear-gradient(to right, rgb(50, 168, 137), rgb(253, 106, 246));
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    /* border: 2px solid black; */
+    border: none;
+}
+
+a .call-button {
+    text-decoration: none;
+    color: white;
+}
+
+a .call-button:hover{
+    cursor: pointer;
+}
+
+footer{
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.buy{
+    padding: 10px 40px;
+    background: linear-gradient(to right, rgb(50, 168, 137), rgb(253, 106, 246));
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    /* border: 2px solid black; */
+    border: none;    
+}
+
+a .buy{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+
+a .buy:hover{
+    cursor: pointer;
+}
+
